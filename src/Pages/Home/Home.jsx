@@ -46,16 +46,16 @@ const Home = () => {
                 <br />
                 <br />
                 <br />
-                <div className='xl:mx-20 flex flex-wrap flex-1 justify-center'>
-                    <div className='p-10 my-auto flex flex-col items-center'>
+                <div className='xl:mx-20 flex flex-wrap justify-center'>
+                    <div className='p-10 my-auto flex flex-col items-center' style={{ flex: "0 0 calc(33.33% - 20px)"}}>
                         <img src={servImg1} className='w-40 aspect-[3/2] mb-5 ' alt="" />
                         <h1 className='font-abel text-nowrap text-3xl'>Interior Design</h1>
                     </div>
-                    <div className='p-10 my-auto flex flex-col items-center'>
+                    <div className='p-10 my-auto flex flex-col items-center' style={{ flex: "0 0 calc(33.33% - 20px)"}}>
                         <img src={servImg2} className='w-40 aspect-[3/2] mb-5 ' alt="" />
                         <h1 className='font-abel text-nowrap text-3xl'>Architectural Design</h1>
                     </div>
-                    <div className='p-10 my-auto flex flex-col items-center'>
+                    <div className='p-10 my-auto flex flex-col items-center' style={{ flex: "0 0 calc(33.33% - 20px)"}}>
                         <img src={servImg3} className='w-40 aspect-[3/2] mb-5 ' alt="" />
                         <h1 className='font-abel text-nowrap text-3xl'>Urban Design</h1>
                     </div>
