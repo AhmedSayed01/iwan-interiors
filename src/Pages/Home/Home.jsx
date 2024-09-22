@@ -26,7 +26,7 @@ import "./Home.css";
 
 const Home = () => {
     return (
-        <div className='md:mt-32 m-12'>
+        <div className='md:mt-32 m-5 sm:m-12'>
             <div className='lg:flex justify-center items-center'>
                 <div>
                     <h1 className='text-clampHeader2 font-abel text-nowrap'>
