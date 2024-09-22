@@ -16,7 +16,7 @@ function App() {
         <Router>
         <ScrollToTop />
           <CustomCursor />
-          <div className="top-0 z-20 stick">
+          <div className="top-0 z-20 sticky bg-white">
             <Navbar />
           </div>
           <div className='mx-10 md:mt-20 md:flex justify-center md:gap-20 items-center relative'>
