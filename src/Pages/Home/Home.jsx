@@ -190,13 +190,13 @@ const Home = () => {
             <br /><br /><br />
             <div className='bg-[#2e2e2e]  xl:mx-32 rounded-3xl lg:grid grid-cols-2 gap-4'>
 
-                <div className='mx-20 py-10'>
-                    <h1 className='text-white font-bold text-4xl'>Get In Touch</h1>
+                <div className='mx-10 sm:mx-20 sm:py-10'>
+                    <h1 className='text-white font-bold text-3xl pt-5 text-center sm:text-start sm:text-4xl'>Get In Touch</h1>
                     <br />
-                    <hr className='w-1/2 bg-main h-[3px] border-0' />
+                    <hr className='w-full sm:w-1/2 bg-main h-[3px] border-0' />
                     <br /><br />
                     <br />
-                    <form className="max-w-sm">
+                    <form className="mb-10 m-auto sm:m-0 max-w-sm">
                         <div className="mb-5">
                             <label for="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
                             <input type="text" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 dark:bg-[#2e2e2e] dark:border-[#5e5e5e] dark:placeholder-[#5e5e5e] dark:text-white " placeholder="Your Name" required />
@@ -211,6 +211,7 @@ const Home = () => {
                         </div>
                         <br />
                         <button type="submit" className="custom-hover-no-rotate text-white bg focus:ring-4 font-medium rounded-lg text-lg w-full sm:w-auto px-5 py-2.5 text-center bg-main">Submit</button>
+                        
                     </form>
 
                 </div>
