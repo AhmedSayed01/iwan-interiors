@@ -1,0 +1,8 @@
+.imageChange{
+    width: 600px;
+    height: 350px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
