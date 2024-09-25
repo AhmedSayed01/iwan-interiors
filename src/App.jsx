@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import mainIMG from './assets/mainIMG.png'
 import Home from './Pages/Home/Home';
+import Projects from './Pages/Projects/Projects';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           </div>
           <Routes>
             <Route path="/" exact element={<Home />} />
+            <Route path="/projects" exact element={<Projects />} />
             {/* <Route path="/projects" element={<Projects />} /> */}
           </Routes>
           <br /><br />

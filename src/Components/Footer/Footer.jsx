@@ -8,9 +8,8 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
     return (
         <div>
-            <div className='flex flex-col md:grid grid-cols-7 mx-auto'>
-                <div className='col-span-1 '>
-                </div>
+            <div className='flex flex-col md:grid grid-cols-5 mx-[5%] md:mx-[15%]'>
+                
                 <div className='col-span-2 '>
                     <h1 className='text-4xl font-bell m-10 mt-0'>IWAN HOUSE</h1>
                     <p className='m-10'>It is a long established fact that a reader will be distracted lookings</p>
@@ -21,14 +20,14 @@ const Footer = () => {
                         <i className='custom-hover-no-rotate'><FaYoutube /></i>
                     </div>
                 </div>
-                <div className='col-span-3 flex justify-around'>
-                    <div className='col-span-1 '>
-                        <h1 className='text-2xl font-bell'>Pages</h1>
+                <div className='col-span-3 flex flex-col gap-[10%] text-center sm:text-start sm:flex-row justify-around'>
+                    <div className='col-span-1 mt-10 sm:mt-0 mb-16 sm:mb-0'>
+                        <h1 className='text-3xl sm:text-2xl font-bell text-main'>Pages</h1>
                         <br />
                         <Link className='font-acumin' to="/project">Projects</Link>
                     </div>
-                    <div className='col-span-1 '>
-                        <h1 className='text-2xl font-bell'>Services</h1>
+                    <div className='col-span-1 mb-16 sm:mb-0'>
+                        <h1 className='text-3xl sm:text-2xl font-bell text-main'>Services</h1>
                         <br />
                         <p className='font-acumin'>Kitchen</p>
                         <br />
@@ -41,7 +40,7 @@ const Footer = () => {
                         <p className='font-acumin'>Bedroom</p>
                     </div>
                     <div className='col-span-1 '>
-                        <h1 className='text-2xl font-bell'>Contact</h1>
+                        <h1 className='text-3xl sm:text-2xl font-bell text-main'>Contact</h1>
                         <br />
                         <p>55 East Birchwood Ave.</p>
                         <p>Brooklyn, New York 11201</p>
@@ -49,7 +48,6 @@ const Footer = () => {
                         <p>contact@selhono.com</p>
                         <br />
                         <p>(123) 456 - 7890</p>
-                        <div className='col-span-1'></div>
                     </div>
                 </div>
             </div>

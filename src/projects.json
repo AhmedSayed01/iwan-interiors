@@ -1,0 +1,71 @@
+[
+    {
+        "hashed": "#adminis",
+        "image1":"/project4_1.jpg",
+        "image2":"/project3_1.jpg",
+        "title": "Administrative Offices",
+        "subtitle": "Our office designs focus on",
+        "list": [
+            "Efficiency & Functionality: Optimized layouts, ergonomic furniture, and integrated technology for productivity.",
+            "Brand Representation: Designs that reflect your brand’s culture and impress clients",
+            "Employee Well-being: Comfortable, well-lit spaces that boost morale and productivity.",
+            "Flexibility: Future-proof designs that can adapt as your business grows.",
+            "Compliance: Ensuring safety and regulatory adherence."
+        ]
+    },
+    {
+        "hashed": "#hosp",
+        "image1":"/project5_1.jpg",
+        "image2":"/project7_1.jpg",
+        "title": "Hospitality Venues",
+        "subtitle": "We create guest-centric hospitality spaces that balance luxury and efficiency",
+        "list": [
+            "Guest Comfort: Tailored room designs with luxury elements.",
+            "Brand Identity: Cohesive, memorable designs that set you apart.",
+            "Operational Efficiency: Streamlined layouts for smooth operations.",
+            "Sustainability: Eco-friendly materials and energy-efficient solutions.",
+            "Cultural Integration: Designs that connect guests to local culture."
+        ]
+    },
+    {
+        "hashed": "#rest",
+        "image1":"/project1_2.jpg",
+        "image2":"/project1_1.jpg",
+        "title": "Restaurants <span style='color:#026666;'>&</span> Cafés",
+        "subtitle": "Our restaurant designs enhance ambiance and customer experience",
+        "list": [
+            "Ambiance: Designs that reflect your brand and create the perfect atmosphere.",
+            "Customer Comfort: Comfortable seating, thoughtful layouts, and good acoustics.",
+            "Functionality: Efficient workflows for kitchen and staff.",
+            "Branding: Unique elements that reinforce your identity and attract customers.",
+            "Technology & Sustainability: Integrated tech and eco-friendly practices."
+        ]
+    },
+    {
+        "hashed": "#exhib",
+        "image1":"/project8_1.jpg",
+        "image2":"/project4_2.jpg",
+        "title": "Exhibitions <span style='color:#026666;'>&</span> Trade Shows",
+        "subtitle": "Our exhibition booths are designed to capture attention and engage visitors",
+        "list": [
+            "Brand Consistency: Designs that reflect your brand’s identity.",
+            "Visual Impact: Bold, innovative designs that stand out.",
+            "Engagement: Interactive elements and functional layouts for a seamless visitor experience.",
+            "Flexibility: Modular designs for easy setup and reconfiguration."
+        ]
+    },
+    {
+        "hashed": "#auto",
+        "image1":"/project5_2.jpg",
+        "image2":"/project7_2.jpg",
+        "title": "Automotive Spaces",
+        "subtitle": "We create showrooms and service centers that reflect your brand and enhance the customer journey",
+        "list": [
+            "Brand Identity: Designs that convey luxury and innovation.",
+            "Customer Experience: Welcoming spaces with clear vehicle displays and interactive features.",
+            "Operational Efficiency: Optimized layouts for smooth operations.",
+            "Technology Integration: Digital elements and VR experiences for enhanced engagement.",
+            "Safety & Compliance: Adhering to all safety and accessibility standards."
+        ]
+    }
+]
